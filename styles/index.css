@@ -24,13 +24,13 @@ header {
 header div {
   color: rgb(243, 243, 243);
   margin: auto;
-  width: 50%;
+  width: 60%;
   text-align: center;
 }
 header div h1 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 5rem;
   text-transform: uppercase;
 }
 header div p {
@@ -117,4 +117,61 @@ ul li {
 ul li:hover {
   color: rgb(21, 20, 20);
   background-color: rgb(243, 243, 243);
+}
+
+button {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  padding: 20px 10px;
+  margin: 40px 20px;
+  border: rgb(21, 20, 20) solid 3px;
+  font-weight: 700;
+}
+
+.date {
+  font-size: 1rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.articles {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color: rgb(243, 243, 243);
+}
+.articles .article1 {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+.articles .article1 h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+}
+.articles .article1 p {
+  font-size: 1rem;
+  font-style: italic;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 40px;
+  line-height: 2.5rem;
+}
+.articles .article1 img {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+.articles .groupArticles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }/*# sourceMappingURL=index.css.map */

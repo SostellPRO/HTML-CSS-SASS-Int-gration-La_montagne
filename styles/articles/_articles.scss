@@ -1,0 +1,41 @@
+.articles {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: $color1;
+    .article1 {
+        text-align: center;
+        justify-content: center;
+            position: relative;
+
+        h2{
+            font-size: 3rem;
+            text-transform: uppercase;
+            width: 60%;
+            margin: auto;
+            padding-bottom: 40px;
+              font-family: "Inter", sans-serif;
+              font-weight: 900;
+        }
+        p {
+            font-size: 1rem;
+            font-style: italic;
+             width: 60%;
+            margin: auto;
+            padding-bottom: 40px;
+            line-height: 2.5rem;
+
+        }
+        img {
+            width: 80%;
+            margin: auto;
+            display: block;
+        }       
+    }
+
+.groupArticles {
+    display: flex;
+}
+
+
+}
