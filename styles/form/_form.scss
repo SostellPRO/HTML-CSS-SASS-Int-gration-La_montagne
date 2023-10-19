@@ -3,6 +3,8 @@
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 40px;
+    margin-bottom: 80px;
+    padding-top: 80px;
     background-color: lightgrey;
 }
 
@@ -12,7 +14,9 @@
 
 
 form {
-        display: grid;
+    display: grid;
+        margin-right: 10%;
+    margin-left: 10%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
@@ -24,33 +28,55 @@ form {
 }
 
 .na{
+    font-weight: 600;
+    text-transform: uppercase;
 grid-area: na;
+display: block;
 }
 
 .em{
+    font-weight: 600;
+    text-transform: uppercase;
 grid-area: em;
+display: block;
 }
 
 .me {
+    font-weight: 600;
+    text-transform: uppercase;
 grid-area: me;
+display: block;
 }
 
 .bu {
+    font-weight: 600;
+    text-transform: uppercase;
 grid-area: bu;
 }
 
 .ad {
 grid-area: ad;
+display: flex;
 }
 
 .ph {
 grid-area: ph;
+display: flex;
 }
 
 .co {
-grid-area: co;    
+grid-area: co;
+display: flex;    
 }
 
 .so {
 grid-area: so;
+display: flex;
 }
+
+.pform {
+    margin: 0;
+}
+
+
+
