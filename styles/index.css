@@ -131,8 +131,8 @@ button {
 
 .date {
   font-size: 1rem;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .articles {
@@ -141,14 +141,12 @@ button {
   margin-left: 10%;
   background-color: rgb(243, 243, 243);
 }
-.articles .article1 {
+
+.article1 {
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   position: relative;
 }
-.articles .article1 h2 {
+.article1 h2 {
   font-size: 3rem;
   text-transform: uppercase;
   width: 60%;
@@ -157,7 +155,7 @@ button {
   font-family: "Inter", sans-serif;
   font-weight: 900;
 }
-.articles .article1 p {
+.article1 p {
   font-size: 1rem;
   font-style: italic;
   width: 60%;
@@ -165,13 +163,107 @@ button {
   padding-bottom: 40px;
   line-height: 2.5rem;
 }
-.articles .article1 img {
+.article1 img {
   width: 80%;
   margin: auto;
   display: block;
 }
-.articles .groupArticles {
+
+.groupArticles {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.article2 {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  border-top: solid 1px lightgray;
+  border-right: solid 1px lightgray;
+}
+
+.article3 {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  border-top: solid 1px lightgray;
+}
+
+.img2,
+.img3 {
+  width: 80%;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 2.5rem;
+  margin: auto;
+  width: 80%;
+  text-align: justify;
+}
+
+.communication {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 40px;
+  background-color: lightgrey;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "na ad" "em ph" "me co" "bu so";
+}
+
+.na {
+  grid-area: na;
+}
+
+.em {
+  grid-area: em;
+}
+
+.me {
+  grid-area: me;
+}
+
+.bu {
+  grid-area: bu;
+}
+
+.ad {
+  grid-area: ad;
+}
+
+.ph {
+  grid-area: ph;
+}
+
+.co {
+  grid-area: co;
+}
+
+.so {
+  grid-area: so;
 }/*# sourceMappingURL=index.css.map */

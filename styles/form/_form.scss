@@ -1,0 +1,56 @@
+.communication {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 40px;
+    background-color: lightgrey;
+}
+
+
+
+
+
+
+form {
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "na ad"
+    "em ph"
+    "me co"
+    "bu so"
+    ;
+}
+
+.na{
+grid-area: na;
+}
+
+.em{
+grid-area: em;
+}
+
+.me {
+grid-area: me;
+}
+
+.bu {
+grid-area: bu;
+}
+
+.ad {
+grid-area: ad;
+}
+
+.ph {
+grid-area: ph;
+}
+
+.co {
+grid-area: co;    
+}
+
+.so {
+grid-area: so;
+}
